@@ -1,0 +1,15 @@
+services:
+  ip-sync:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: timer-check-update-ip-sync:latest
+    env_file:
+      - .env
+    volumes:
+      - ./:/app-data
+    environment:
+      - TZ=Asia/Shanghai
+      - LOG_DIR=/app-data/logs
+      - LOG_RETENTION_DAYS=7
+    command: ["--once"]

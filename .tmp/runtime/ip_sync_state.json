@@ -1,0 +1,76 @@
+{
+  "targets": {
+    "huawei|security-modifier|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:eb6f447b-ca03-4fe3-ad84-0881a246696e": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778048741,
+      "updated_at_text": "2026-05-06 14:25:41"
+    },
+    "huawei|security-modifier|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:7a7d77d7-ef99-4b3d-90cd-223909d37bc9": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778049172,
+      "updated_at_text": "2026-05-06 14:32:52"
+    },
+    "huawei|security-modifier|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:49bb0633-c28d-4b43-9bc1-b076ba2b109a": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778049172,
+      "updated_at_text": "2026-05-06 14:32:52"
+    },
+    "|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6f": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778053119,
+      "updated_at_text": "2026-05-06 15:38:39"
+    },
+    "|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6d": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778053119,
+      "updated_at_text": "2026-05-06 15:38:39"
+    },
+    "|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6h": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778053725,
+      "updated_at_text": "2026-05-06 15:48:45"
+    },
+    "aliyun|原筑|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6h": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638503,
+      "updated_at_text": "2026-05-13 10:15:03",
+      "rule_identifier": "sgr-bp1b2nu3620lsa112i6h"
+    },
+    "aliyun|原筑|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6f": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638503,
+      "updated_at_text": "2026-05-13 10:15:03",
+      "rule_identifier": "sgr-bp1b2nu3620lsa112i6f"
+    },
+    "aliyun|原筑|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6d": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638503,
+      "updated_at_text": "2026-05-13 10:15:03",
+      "rule_identifier": "sgr-bp1b2nu3620lsa112i6d"
+    },
+    "huawei|慧橙|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:b88e66d8-a98e-4e5b-b870-f8d58dac0789": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638504,
+      "updated_at_text": "2026-05-13 10:15:04",
+      "rule_identifier": "bb14369c-01b3-43f2-9983-2716e7460e6e"
+    },
+    "huawei|慧橙|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:79a75713-be20-4855-8c7a-5faece633583": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638505,
+      "updated_at_text": "2026-05-13 10:15:05",
+      "rule_identifier": "79a75713-be20-4855-8c7a-5faece633583"
+    },
+    "huawei|慧橙|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:ed2b6d47-2a73-490b-bf4d-b810fa9af8cc": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638505,
+      "updated_at_text": "2026-05-13 10:15:05",
+      "rule_identifier": "ed2b6d47-2a73-490b-bf4d-b810fa9af8cc"
+    },
+    "huawei|慧橙|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:bb14369c-01b3-43f2-9983-2716e7460e6e": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778638614,
+      "updated_at_text": "2026-05-13 10:16:54",
+      "rule_identifier": "bb14369c-01b3-43f2-9983-2716e7460e6e"
+    }
+  }
+}

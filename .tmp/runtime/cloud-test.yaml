@@ -1,0 +1,13 @@
+huawei:
+  - account: "慧橙"
+    region_id: "cn-east-3"
+    access_key_id: ""
+    access_key_secret: ""
+    security_groups:
+      - security_group_id: "45ee7acb-8471-40e5-8578-e7fae38f9142"
+        alias: "--"
+        rules:
+          - rule_id: "79a75713-be20-4855-8c7a-5faece633583"
+            alias: "公司网络"
+          - rule_id: "ed2b6d47-2a73-490b-bf4d-b810fa9af8cc"
+            alias: "--"

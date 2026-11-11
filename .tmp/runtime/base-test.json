@@ -1,0 +1,9 @@
+{
+  "check_interval_seconds": 3600,
+  "log_retention_days": 7,
+  "ip_sources": [
+    "https://api64.ipify.org",
+    "https://ifconfig.me/ip",
+    "https://checkip.amazonaws.com"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "targets": {
+    "huawei|security-modifier|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:eb6f447b-ca03-4fe3-ad84-0881a246696e": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778051728
+    },
+    "huawei|security-modifier|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:7a7d77d7-ef99-4b3d-90cd-223909d37bc9": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778051728
+    },
+    "huawei|security-modifier|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:49bb0633-c28d-4b43-9bc1-b076ba2b109a": {
+      "last_ip": "115.220.184.160",
+      "updated_at": 1778051728
+    },
+    "aliyun|原筑|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6h": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778640053,
+      "updated_at_text": "2026-05-13 10:40:53",
+      "rule_identifier": "sgr-bp1b2nu3620lsa112i6h"
+    },
+    "aliyun|原筑|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6f": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778640053,
+      "updated_at_text": "2026-05-13 10:40:53",
+      "rule_identifier": "sgr-bp1b2nu3620lsa112i6f"
+    },
+    "aliyun|原筑|cn-hangzhou|aliyun:sg-bp18yj3ggqktn1ejdr99:sgr-bp1b2nu3620lsa112i6d": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778640054,
+      "updated_at_text": "2026-05-13 10:40:54",
+      "rule_identifier": "sgr-bp1b2nu3620lsa112i6d"
+    },
+    "huawei|慧橙|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:79a75713-be20-4855-8c7a-5faece633583": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778640055,
+      "updated_at_text": "2026-05-13 10:40:55",
+      "rule_identifier": "599d5b76-6b39-4dea-a592-cf17f60feee3"
+    },
+    "huawei|慧橙|cn-east-3|huawei:45ee7acb-8471-40e5-8578-e7fae38f9142:ed2b6d47-2a73-490b-bf4d-b810fa9af8cc": {
+      "last_ip": "36.22.254.133",
+      "updated_at": 1778640055,
+      "updated_at_text": "2026-05-13 10:40:55",
+      "rule_identifier": "89a14328-6114-4cb1-8e19-f6be1d208140"
+    }
+  }
+}

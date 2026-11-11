@@ -1,0 +1,554 @@
+2026-05-06 13:54:19-INFO: ----------------------开始任务----------------------
+2026-05-06 13:54:19-INFO: step1：获取当前公网ip
+2026-05-06 13:54:20-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 2602:feda:f30f:a676:d072:9743:ab99:5c2f，耗时: 1108ms
+2026-05-06 13:54:22-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 2602:feda:dd0:c84a:4846:cbc9:997c:83b8，耗时: 1294ms
+2026-05-06 13:54:24-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 134.195.101.180，耗时: 2473ms
+2026-05-06 13:54:25-INFO: 获取公网ip地址，url: https://api.ipify.org，结果: 134.195.101.180，耗时: 1200ms
+2026-05-06 13:54:27-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 2602:feda:f30f:6fa2:c867:997e:6e59:5208，耗时: 1749ms
+2026-05-06 13:54:29-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 134.195.101.180，耗时: 1618ms
+2026-05-06 13:54:31-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 2602:feda:f30f:852c:7235:9133:fd1b:a72e，耗时: 2034ms
+2026-05-06 13:54:36-WARN: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 失败(URLError)，耗时: 5077ms
+2026-05-06 13:54:38-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 2602:feda:dd0:4515:ebf:1a3b:8344:7025，耗时: 1790ms
+2026-05-06 13:54:38-INFO: ----------------------完成任务，总耗时: 18359ms----------------------
+2026-05-06 14:01:25-INFO: ----------------------开始任务----------------------
+2026-05-06 14:01:25-INFO: step1：获取当前公网ip
+2026-05-06 14:01:26-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 566ms
+2026-05-06 14:01:29-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 3416ms
+2026-05-06 14:01:30-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 675ms
+2026-05-06 14:01:31-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 707ms
+2026-05-06 14:01:31-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 644ms
+2026-05-06 14:01:34-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 2806ms
+2026-05-06 14:01:35-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 459ms
+2026-05-06 14:01:39-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 4659ms
+2026-05-06 14:01:40-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 834ms
+2026-05-06 14:01:40-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:01:40-INFO: step3：更新安全组规则
+2026-05-06 14:01:40-INFO: step3.1：目标安全组：华为云 | hid_20cp6kfc1obxviq | cn-east-3 | - | test
+2026-05-06 14:01:40-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:01:45-ERROR: 更新结果: 失败，耗时: 5037ms
+2026-05-06 14:01:45-INFO: step4：发送变更通知
+2026-05-06 14:01:46-INFO: 通知邮箱： ，通知结果: 成功，耗时: 670ms
+2026-05-06 14:01:46-INFO: 汇总通知结果: 成功，尝试次数: 1
+2026-05-06 14:01:46-INFO: ----------------------完成任务，总耗时: 20491ms----------------------
+2026-05-06 14:11:26-INFO: ----------------------开始任务----------------------
+2026-05-06 14:11:26-INFO: run.start，时间戳: 1778047886，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778047886
+2026-05-06 14:11:26-INFO: step1：获取当前公网ip
+2026-05-06 14:11:28-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 2228ms
+2026-05-06 14:11:28-INFO: ip.source.result，时间戳: 1778047888，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047888
+2026-05-06 14:11:29-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 880ms
+2026-05-06 14:11:29-INFO: ip.source.result，时间戳: 1778047889，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047889
+2026-05-06 14:11:29-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 240ms
+2026-05-06 14:11:29-INFO: ip.source.result，时间戳: 1778047889，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047889
+2026-05-06 14:11:30-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 712ms
+2026-05-06 14:11:30-WARN: ip.source.result，时间戳: 1778047890，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778047890
+2026-05-06 14:11:30-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 872ms
+2026-05-06 14:11:30-INFO: ip.source.result，时间戳: 1778047890，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047890
+2026-05-06 14:11:33-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 2144ms
+2026-05-06 14:11:33-INFO: ip.source.result，时间戳: 1778047893，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047893
+2026-05-06 14:11:33-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 500ms
+2026-05-06 14:11:33-INFO: ip.source.result，时间戳: 1778047893，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047893
+2026-05-06 14:11:34-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1133ms
+2026-05-06 14:11:34-INFO: ip.source.result，时间戳: 1778047894，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047894
+2026-05-06 14:11:36-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 2153ms
+2026-05-06 14:11:36-INFO: ip.source.result，时间戳: 1778047896，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778047896
+2026-05-06 14:11:36-WARN: ip.source.partial_error，时间戳: 1778047896，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 14:11:36-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:11:36-INFO: step3：更新安全组规则
+2026-05-06 14:11:36-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | - | test
+2026-05-06 14:11:36-INFO: target.evaluate，时间戳: 1778047896，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 62207820-5871-4a63-93a0-aaf0f04d0c61，rule_name: test，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: HPU***SMK
+2026-05-06 14:11:36-INFO: ip.compare，时间戳: 1778047896，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 62207820-5871-4a63-93a0-aaf0f04d0c61，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 14:11:36-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:11:42-ERROR: cloud.update.failed，时间戳: 1778047902，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 62207820-5871-4a63-93a0-aaf0f04d0c61，attempts: 3，error: api_error:CreateSecurityGroupRuleOption.__init__() got an unexpected keyword argument 'port_range_min'，updated_at: 1778047902
+2026-05-06 14:11:42-ERROR: 更新结果: 失败，耗时: 5077ms
+2026-05-06 14:11:42-INFO: step4：发送变更通知
+2026-05-06 14:11:42-INFO: 通知邮箱： ，通知结果: 跳过，耗时: 0ms
+2026-05-06 14:11:42-INFO: notify.skipped，时间戳: 1778047902，count: 1，reason: rate_limited，pending_count: 1
+2026-05-06 14:11:42-INFO: 汇总通知结果: 跳过，原因: rate_limited，待发送记录: 1
+2026-05-06 14:11:42-INFO: run.complete，时间戳: 1778047902，ended_at: 1778047902，duration_seconds: 15.973，exit_code: 20
+2026-05-06 14:11:42-INFO: ----------------------完成任务，总耗时: 15972ms----------------------
+2026-05-06 14:17:21-INFO: ----------------------开始任务----------------------
+2026-05-06 14:17:21-INFO: run.start，时间戳: 1778048241，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778048241
+2026-05-06 14:17:21-INFO: step1：获取当前公网ip
+2026-05-06 14:17:22-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 528ms
+2026-05-06 14:17:22-INFO: ip.source.result，时间戳: 1778048242，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048242
+2026-05-06 14:17:25-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 3716ms
+2026-05-06 14:17:25-INFO: ip.source.result，时间戳: 1778048245，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048245
+2026-05-06 14:17:25-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 247ms
+2026-05-06 14:17:25-INFO: ip.source.result，时间戳: 1778048245，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048245
+2026-05-06 14:17:26-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 710ms
+2026-05-06 14:17:26-WARN: ip.source.result，时间戳: 1778048246，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778048246
+2026-05-06 14:17:27-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 601ms
+2026-05-06 14:17:27-INFO: ip.source.result，时间戳: 1778048247，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048247
+2026-05-06 14:17:28-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 832ms
+2026-05-06 14:17:28-INFO: ip.source.result，时间戳: 1778048248，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048248
+2026-05-06 14:17:28-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 690ms
+2026-05-06 14:17:28-INFO: ip.source.result，时间戳: 1778048248，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048248
+2026-05-06 14:17:32-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 3891ms
+2026-05-06 14:17:32-INFO: ip.source.result，时间戳: 1778048252，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048252
+2026-05-06 14:17:33-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 871ms
+2026-05-06 14:17:33-INFO: ip.source.result，时间戳: 1778048253，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048253
+2026-05-06 14:17:33-WARN: ip.source.partial_error，时间戳: 1778048253，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 14:17:33-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:17:33-INFO: step3：更新安全组规则
+2026-05-06 14:17:33-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | - | test
+2026-05-06 14:17:33-INFO: target.evaluate，时间戳: 1778048253，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 62207820-5871-4a63-93a0-aaf0f04d0c61，rule_name: test，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: HPU***SMK
+2026-05-06 14:17:33-INFO: ip.compare，时间戳: 1778048253，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 62207820-5871-4a63-93a0-aaf0f04d0c61，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 14:17:33-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:17:34-INFO: aliyun.update.success，时间戳: 1778048254，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 62207820-5871-4a63-93a0-aaf0f04d0c61，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778048254
+2026-05-06 14:17:34-INFO: 更新结果: 成功，耗时: 1290ms
+2026-05-06 14:17:34-INFO: step4：发送变更通知
+2026-05-06 14:17:34-INFO: 通知邮箱： ，通知结果: 跳过，耗时: 0ms
+2026-05-06 14:17:34-INFO: notify.skipped，时间戳: 1778048254，count: 1，reason: rate_limited，pending_count: 2
+2026-05-06 14:17:34-INFO: 汇总通知结果: 跳过，原因: rate_limited，待发送记录: 2
+2026-05-06 14:17:34-INFO: run.complete，时间戳: 1778048254，ended_at: 1778048254，duration_seconds: 13.399，exit_code: 0
+2026-05-06 14:17:34-INFO: ----------------------完成任务，总耗时: 13398ms----------------------
+2026-05-06 14:18:49-INFO: ----------------------开始任务----------------------
+2026-05-06 14:18:49-INFO: run.start，时间戳: 1778048329，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778048329
+2026-05-06 14:18:49-INFO: step1：获取当前公网ip
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://api64.ipify.org，结果: 失败(URLError)，耗时: 42ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://api64.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 失败(URLError)，耗时: 5ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://ifconfig.me/ip，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 失败(URLError)，耗时: 39ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://checkip.amazonaws.com，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 28ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 失败(URLError)，耗时: 29ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://api.ip.sb/ip，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 失败(URLError)，耗时: 5ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://ipinfo.io/ip，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://icanhazip.com，结果: 失败(URLError)，耗时: 5ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://icanhazip.com，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 失败(URLError)，耗时: 5ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://api.my-ip.io/ip，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: 获取公网ip地址，url: https://ipecho.net/plain，结果: 失败(URLError)，耗时: 5ms
+2026-05-06 14:18:49-WARN: ip.source.result，时间戳: 1778048329，source: https://ipecho.net/plain，success: False，error_type: URLError，error: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>，fetched_at: 1778048329
+2026-05-06 14:18:49-WARN: ip.source.partial_error，时间戳: 1778048329，source_errors: {'https://api64.ipify.org': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://ifconfig.me/ip': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://checkip.amazonaws.com': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://api.ipify.org': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://api.ip.sb/ip': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://ipinfo.io/ip': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://icanhazip.com': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://api.my-ip.io/ip': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>', 'https://ipecho.net/plain': '<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>'}
+2026-05-06 14:18:49-ERROR: ip.resolve.failed，时间戳: 1778048329，reason: all_sources_failed
+2026-05-06 14:18:49-INFO: run.complete，时间戳: 1778048329，ended_at: 1778048329，duration_seconds: 0.176，exit_code: 10
+2026-05-06 14:18:49-INFO: ----------------------完成任务，总耗时: 176ms----------------------
+2026-05-06 14:20:55-INFO: ----------------------开始任务----------------------
+2026-05-06 14:20:55-INFO: run.start，时间戳: 1778048455，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778048455
+2026-05-06 14:20:55-INFO: step1：获取当前公网ip
+2026-05-06 14:20:55-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 517ms
+2026-05-06 14:20:55-INFO: ip.source.result，时间戳: 1778048455，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048455
+2026-05-06 14:20:57-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 1404ms
+2026-05-06 14:20:57-INFO: ip.source.result，时间戳: 1778048457，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048457
+2026-05-06 14:21:01-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 4148ms
+2026-05-06 14:21:01-INFO: ip.source.result，时间戳: 1778048461，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048461
+2026-05-06 14:21:02-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 726ms
+2026-05-06 14:21:02-WARN: ip.source.result，时间戳: 1778048462，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778048462
+2026-05-06 14:21:02-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 621ms
+2026-05-06 14:21:02-INFO: ip.source.result，时间戳: 1778048462，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048462
+2026-05-06 14:21:04-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 1754ms
+2026-05-06 14:21:04-INFO: ip.source.result，时间戳: 1778048464，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048464
+2026-05-06 14:21:05-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 532ms
+2026-05-06 14:21:05-INFO: ip.source.result，时间戳: 1778048465，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048465
+2026-05-06 14:21:06-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1051ms
+2026-05-06 14:21:06-INFO: ip.source.result，时间戳: 1778048466，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048466
+2026-05-06 14:21:07-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 1073ms
+2026-05-06 14:21:07-INFO: ip.source.result，时间戳: 1778048467，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048467
+2026-05-06 14:21:07-WARN: ip.source.partial_error，时间戳: 1778048467，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 14:21:07-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:21:07-INFO: step3：更新安全组规则
+2026-05-06 14:21:07-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | - | test
+2026-05-06 14:21:07-INFO: target.evaluate，时间戳: 1778048467，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 14:21:07-INFO: ip.compare，时间戳: 1778048467，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 14:21:07-INFO: target.skip_update，时间戳: 1778048467，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 14:21:07-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 14:21:07-INFO: step4：发送变更通知
+2026-05-06 14:21:07-INFO: 通知邮箱： ，通知结果: 跳过，耗时: 0ms
+2026-05-06 14:21:07-INFO: notify.skipped，时间戳: 1778048467，count: 0，reason: rate_limited，pending_count: 2
+2026-05-06 14:21:07-INFO: 汇总通知结果: 跳过，原因: rate_limited，待发送记录: 2
+2026-05-06 14:21:07-INFO: run.complete，时间戳: 1778048467，ended_at: 1778048467，duration_seconds: 11.842，exit_code: 0
+2026-05-06 14:21:07-INFO: ----------------------完成任务，总耗时: 11841ms----------------------
+2026-05-06 14:22:01-INFO: ----------------------开始任务----------------------
+2026-05-06 14:22:01-INFO: run.start，时间戳: 1778048521，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778048521
+2026-05-06 14:22:01-INFO: step1：获取当前公网ip
+2026-05-06 14:22:02-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 1560ms
+2026-05-06 14:22:02-INFO: ip.source.result，时间戳: 1778048522，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048522
+2026-05-06 14:22:04-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 1209ms
+2026-05-06 14:22:04-INFO: ip.source.result，时间戳: 1778048524，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048524
+2026-05-06 14:22:04-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 911ms
+2026-05-06 14:22:04-INFO: ip.source.result，时间戳: 1778048524，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048524
+2026-05-06 14:22:05-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(ConnectionResetError)，耗时: 895ms
+2026-05-06 14:22:05-WARN: ip.source.result，时间戳: 1778048525，source: https://api.ipify.org，success: False，error_type: ConnectionResetError，error: [WinError 10054] 远程主机强迫关闭了一个现有的连接。，fetched_at: 1778048525
+2026-05-06 14:22:06-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 891ms
+2026-05-06 14:22:06-INFO: ip.source.result，时间戳: 1778048526，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048526
+2026-05-06 14:22:07-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 812ms
+2026-05-06 14:22:07-INFO: ip.source.result，时间戳: 1778048527，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048527
+2026-05-06 14:22:08-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 499ms
+2026-05-06 14:22:08-INFO: ip.source.result，时间戳: 1778048528，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048528
+2026-05-06 14:22:10-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 2317ms
+2026-05-06 14:22:10-INFO: ip.source.result，时间戳: 1778048530，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048530
+2026-05-06 14:22:13-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 3598ms
+2026-05-06 14:22:13-INFO: ip.source.result，时间戳: 1778048533，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048533
+2026-05-06 14:22:13-WARN: ip.source.partial_error，时间戳: 1778048533，source_errors: {'https://api.ipify.org': '[WinError 10054] 远程主机强迫关闭了一个现有的连接。'}
+2026-05-06 14:22:13-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:22:13-INFO: step3：更新安全组规则
+2026-05-06 14:22:13-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | - | test
+2026-05-06 14:22:13-INFO: target.evaluate，时间戳: 1778048533，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 14:22:13-INFO: ip.compare，时间戳: 1778048533，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 14:22:13-INFO: target.skip_update，时间戳: 1778048533，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 14:22:13-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 14:22:13-INFO: step4：发送变更通知
+2026-05-06 14:22:13-INFO: 通知邮箱： ，通知结果: 跳过，耗时: 0ms
+2026-05-06 14:22:13-INFO: notify.skipped，时间戳: 1778048533，count: 0，reason: rate_limited，pending_count: 2
+2026-05-06 14:22:13-INFO: 汇总通知结果: 跳过，原因: rate_limited，待发送记录: 2
+2026-05-06 14:22:13-INFO: run.complete，时间戳: 1778048533，ended_at: 1778048533，duration_seconds: 12.721，exit_code: 0
+2026-05-06 14:22:13-INFO: ----------------------完成任务，总耗时: 12721ms----------------------
+2026-05-06 14:23:04-INFO: ----------------------开始任务----------------------
+2026-05-06 14:23:04-INFO: run.start，时间戳: 1778048584，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778048584
+2026-05-06 14:23:04-INFO: step1：获取当前公网ip
+2026-05-06 14:23:05-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 1207ms
+2026-05-06 14:23:05-INFO: ip.source.result，时间戳: 1778048585，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048585
+2026-05-06 14:23:06-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 822ms
+2026-05-06 14:23:06-INFO: ip.source.result，时间戳: 1778048586，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048586
+2026-05-06 14:23:07-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 937ms
+2026-05-06 14:23:07-INFO: ip.source.result，时间戳: 1778048587，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048587
+2026-05-06 14:23:08-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 737ms
+2026-05-06 14:23:08-WARN: ip.source.result，时间戳: 1778048588，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778048588
+2026-05-06 14:23:09-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 676ms
+2026-05-06 14:23:09-INFO: ip.source.result，时间戳: 1778048589，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048589
+2026-05-06 14:23:11-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 2425ms
+2026-05-06 14:23:11-INFO: ip.source.result，时间戳: 1778048591，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048591
+2026-05-06 14:23:12-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 477ms
+2026-05-06 14:23:12-INFO: ip.source.result，时间戳: 1778048592，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048592
+2026-05-06 14:23:13-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1198ms
+2026-05-06 14:23:13-INFO: ip.source.result，时间戳: 1778048593，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048593
+2026-05-06 14:23:14-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 872ms
+2026-05-06 14:23:14-INFO: ip.source.result，时间戳: 1778048594，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048594
+2026-05-06 14:23:14-WARN: ip.source.partial_error，时间戳: 1778048594，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 14:23:14-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:23:14-INFO: step3：更新安全组规则
+2026-05-06 14:23:14-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | - | test
+2026-05-06 14:23:14-INFO: target.evaluate，时间戳: 1778048594，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: HPU***SMK
+2026-05-06 14:23:14-INFO: ip.compare，时间戳: 1778048594，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 14:23:14-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:23:19-ERROR: cloud.update.failed，时间戳: 1778048599，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，attempts: 3，error: api_error:ClientRequestException - {status_code:409,request_id:aa2d0051be5465adfc6c3a45f4297773,error_code:VPC.9902,error_msg:Security group rule already exists. Rule id is eb6f447b-ca03-4fe3-ad84-0881a246696e.,encoded_authorization_message:None }，updated_at: 1778048599
+2026-05-06 14:23:19-ERROR: 更新结果: 失败，耗时: 4949ms
+2026-05-06 14:23:19-INFO: step4：发送变更通知
+2026-05-06 14:23:19-INFO: 通知邮箱： ，通知结果: 跳过，耗时: 0ms
+2026-05-06 14:23:19-INFO: notify.skipped，时间戳: 1778048599，count: 1，reason: rate_limited，pending_count: 3
+2026-05-06 14:23:19-INFO: 汇总通知结果: 跳过，原因: rate_limited，待发送记录: 3
+2026-05-06 14:23:19-INFO: run.complete，时间戳: 1778048599，ended_at: 1778048599，duration_seconds: 14.33，exit_code: 20
+2026-05-06 14:23:19-INFO: ----------------------完成任务，总耗时: 14329ms----------------------
+2026-05-06 14:25:32-INFO: ----------------------开始任务----------------------
+2026-05-06 14:25:32-INFO: run.start，时间戳: 1778048732，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778048732
+2026-05-06 14:25:32-INFO: step1：获取当前公网ip
+2026-05-06 14:25:33-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 568ms
+2026-05-06 14:25:33-INFO: ip.source.result，时间戳: 1778048733，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048733
+2026-05-06 14:25:34-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 910ms
+2026-05-06 14:25:34-INFO: ip.source.result，时间戳: 1778048734，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048734
+2026-05-06 14:25:35-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 852ms
+2026-05-06 14:25:35-INFO: ip.source.result，时间戳: 1778048735，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048735
+2026-05-06 14:25:36-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 764ms
+2026-05-06 14:25:36-WARN: ip.source.result，时间戳: 1778048736，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778048736
+2026-05-06 14:25:36-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 607ms
+2026-05-06 14:25:36-INFO: ip.source.result，时间戳: 1778048736，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048736
+2026-05-06 14:25:37-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 905ms
+2026-05-06 14:25:37-INFO: ip.source.result，时间戳: 1778048737，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048737
+2026-05-06 14:25:38-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 687ms
+2026-05-06 14:25:38-INFO: ip.source.result，时间戳: 1778048738，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048738
+2026-05-06 14:25:39-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1334ms
+2026-05-06 14:25:39-INFO: ip.source.result，时间戳: 1778048739，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048739
+2026-05-06 14:25:40-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 895ms
+2026-05-06 14:25:40-INFO: ip.source.result，时间戳: 1778048740，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778048740
+2026-05-06 14:25:40-WARN: ip.source.partial_error，时间戳: 1778048740，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 14:25:40-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:25:40-INFO: step3：更新安全组规则
+2026-05-06 14:25:40-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | - | test
+2026-05-06 14:25:40-INFO: target.evaluate，时间戳: 1778048740，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: HPU***SMK
+2026-05-06 14:25:40-INFO: ip.compare，时间戳: 1778048740，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 14:25:40-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:25:41-INFO: aliyun.update.success，时间戳: 1778048741，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778048741
+2026-05-06 14:25:41-INFO: 更新结果: 成功，耗时: 1229ms
+2026-05-06 14:25:41-INFO: step4：发送变更通知
+2026-05-06 14:25:42-INFO: 通知邮箱： ，通知结果: 成功，耗时: 642ms
+2026-05-06 14:25:42-INFO: notify.sent，时间戳: 1778048742，count: 1，attempts: 1
+2026-05-06 14:25:42-INFO: 汇总通知结果: 成功，尝试次数: 1
+2026-05-06 14:25:42-INFO: run.complete，时间戳: 1778048742，ended_at: 1778048742，duration_seconds: 9.412，exit_code: 0
+2026-05-06 14:25:42-INFO: ----------------------完成任务，总耗时: 9412ms----------------------
+2026-05-06 14:32:42-INFO: ----------------------开始任务----------------------
+2026-05-06 14:32:42-INFO: run.start，时间戳: 1778049162，run_mode: once，check_interval_seconds: 60，accounts: 1，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778049162
+2026-05-06 14:32:42-INFO: step1：获取当前公网ip
+2026-05-06 14:32:44-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 2197ms
+2026-05-06 14:32:44-INFO: ip.source.result，时间戳: 1778049164，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049164
+2026-05-06 14:32:45-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 805ms
+2026-05-06 14:32:45-INFO: ip.source.result，时间戳: 1778049165，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049165
+2026-05-06 14:32:45-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 236ms
+2026-05-06 14:32:45-INFO: ip.source.result，时间戳: 1778049165，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049165
+2026-05-06 14:32:46-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 763ms
+2026-05-06 14:32:46-WARN: ip.source.result，时间戳: 1778049166，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778049166
+2026-05-06 14:32:47-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 720ms
+2026-05-06 14:32:47-INFO: ip.source.result，时间戳: 1778049167，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049167
+2026-05-06 14:32:49-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 1955ms
+2026-05-06 14:32:49-INFO: ip.source.result，时间戳: 1778049169，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049169
+2026-05-06 14:32:49-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 426ms
+2026-05-06 14:32:49-INFO: ip.source.result，时间戳: 1778049169，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049169
+2026-05-06 14:32:50-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1085ms
+2026-05-06 14:32:50-INFO: ip.source.result，时间戳: 1778049170，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049170
+2026-05-06 14:32:51-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 827ms
+2026-05-06 14:32:51-INFO: ip.source.result，时间戳: 1778049171，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778049171
+2026-05-06 14:32:51-WARN: ip.source.partial_error，时间戳: 1778049171，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 14:32:51-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 14:32:51-INFO: step3：更新安全组规则
+2026-05-06 14:32:51-INFO: step3.1：目标安全组：华为云 | security-modifier | cn-east-3 | -- | test
+2026-05-06 14:32:51-INFO: target.evaluate，时间戳: 1778049171，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 14:32:51-INFO: ip.compare，时间戳: 1778049171，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 14:32:51-INFO: target.skip_update，时间戳: 1778049171，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 14:32:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 14:32:51-INFO: step3.2：目标安全组：华为云 | security-modifier | cn-east-3 | -- | 公司网络
+2026-05-06 14:32:51-INFO: target.evaluate，时间戳: 1778049171，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: HPU***SMK
+2026-05-06 14:32:51-INFO: ip.compare，时间戳: 1778049171，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 14:32:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:32:52-INFO: aliyun.update.success，时间戳: 1778049172，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778049172
+2026-05-06 14:32:52-INFO: 更新结果: 成功，耗时: 1034ms
+2026-05-06 14:32:52-INFO: step3.3：目标安全组：华为云 | security-modifier | cn-east-3 | -- | --
+2026-05-06 14:32:52-INFO: target.evaluate，时间戳: 1778049172，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，rule_name: --，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: HPU***SMK
+2026-05-06 14:32:52-INFO: ip.compare，时间戳: 1778049172，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 14:32:52-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 14:32:52-INFO: aliyun.update.success，时间戳: 1778049172，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778049172
+2026-05-06 14:32:52-INFO: 更新结果: 成功，耗时: 357ms
+2026-05-06 14:32:52-INFO: step4：发送变更通知
+2026-05-06 14:32:53-INFO: 通知邮箱： ，通知结果: 成功，耗时: 420ms
+2026-05-06 14:32:53-INFO: notify.sent，时间戳: 1778049173，count: 2，attempts: 1
+2026-05-06 14:32:53-INFO: 汇总通知结果: 成功，尝试次数: 1
+2026-05-06 14:32:53-INFO: run.complete，时间戳: 1778049173，ended_at: 1778049173，duration_seconds: 10.864，exit_code: 0
+2026-05-06 14:32:53-INFO: ----------------------完成任务，总耗时: 10864ms----------------------
+2026-05-06 15:38:27-INFO: ----------------------开始任务----------------------
+2026-05-06 15:38:27-INFO: run.start，时间戳: 1778053107，run_mode: once，check_interval_seconds: 60，accounts: 2，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778053107
+2026-05-06 15:38:27-INFO: step1：获取当前公网ip
+2026-05-06 15:38:28-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 533ms
+2026-05-06 15:38:28-INFO: ip.source.result，时间戳: 1778053108，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053108
+2026-05-06 15:38:29-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 865ms
+2026-05-06 15:38:29-INFO: ip.source.result，时间戳: 1778053109，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053109
+2026-05-06 15:38:29-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 805ms
+2026-05-06 15:38:29-INFO: ip.source.result，时间戳: 1778053109，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053109
+2026-05-06 15:38:30-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 738ms
+2026-05-06 15:38:30-WARN: ip.source.result，时间戳: 1778053110，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778053110
+2026-05-06 15:38:31-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 1297ms
+2026-05-06 15:38:31-INFO: ip.source.result，时间戳: 1778053111，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053111
+2026-05-06 15:38:33-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 2015ms
+2026-05-06 15:38:33-INFO: ip.source.result，时间戳: 1778053113，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053113
+2026-05-06 15:38:34-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 547ms
+2026-05-06 15:38:34-INFO: ip.source.result，时间戳: 1778053114，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053114
+2026-05-06 15:38:35-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1194ms
+2026-05-06 15:38:35-INFO: ip.source.result，时间戳: 1778053115，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053115
+2026-05-06 15:38:36-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 827ms
+2026-05-06 15:38:36-INFO: ip.source.result，时间戳: 1778053116，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053116
+2026-05-06 15:38:36-WARN: ip.source.partial_error，时间戳: 1778053116，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 15:38:36-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 15:38:36-INFO: step3：更新安全组规则
+2026-05-06 15:38:36-INFO: step3.1：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver ssh
+2026-05-06 15:38:36-INFO: target.evaluate，时间戳: 1778053116，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，rule_name: 公司内网访问jumpserver ssh，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: LTA***cuR
+2026-05-06 15:38:36-INFO: ip.compare，时间戳: 1778053116，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 15:38:36-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 15:38:39-INFO: aliyun.update.success，时间戳: 1778053119，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778053119
+2026-05-06 15:38:39-INFO: 更新结果: 成功，耗时: 2661ms
+2026-05-06 15:38:39-INFO: step3.2：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司网络
+2026-05-06 15:38:39-INFO: target.evaluate，时间戳: 1778053119，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: LTA***cuR
+2026-05-06 15:38:39-INFO: ip.compare，时间戳: 1778053119，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 15:38:39-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 15:38:39-INFO: aliyun.update.success，时间戳: 1778053119，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778053119
+2026-05-06 15:38:39-INFO: 更新结果: 成功，耗时: 180ms
+2026-05-06 15:38:39-INFO: step3.3：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver web
+2026-05-06 15:38:39-INFO: target.evaluate，时间戳: 1778053119，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，rule_name: 公司内网访问jumpserver web，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: LTA***cuR
+2026-05-06 15:38:39-INFO: ip.compare，时间戳: 1778053119，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 15:38:39-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 15:38:39-INFO: aliyun.update.success，时间戳: 1778053119，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778053119
+2026-05-06 15:38:39-INFO: 更新结果: 成功，耗时: 177ms
+2026-05-06 15:38:39-INFO: step3.4：目标安全组：华为云 | security-modifier | cn-east-3 | -- | test
+2026-05-06 15:38:39-INFO: target.evaluate，时间戳: 1778053119，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:38:39-INFO: ip.compare，时间戳: 1778053119，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:38:39-INFO: target.skip_update，时间戳: 1778053119，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 15:38:39-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:38:39-INFO: step3.5：目标安全组：华为云 | security-modifier | cn-east-3 | -- | 公司网络
+2026-05-06 15:38:39-INFO: target.evaluate，时间戳: 1778053119，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:38:39-INFO: ip.compare，时间戳: 1778053119，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:38:39-INFO: target.skip_update，时间戳: 1778053119，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，reason: ip_unchanged
+2026-05-06 15:38:39-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:38:39-INFO: step3.6：目标安全组：华为云 | security-modifier | cn-east-3 | -- | --
+2026-05-06 15:38:39-INFO: target.evaluate，时间戳: 1778053119，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，rule_name: --，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:38:39-INFO: ip.compare，时间戳: 1778053119，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:38:39-INFO: target.skip_update，时间戳: 1778053119，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，reason: ip_unchanged
+2026-05-06 15:38:39-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:38:39-INFO: step4：发送变更通知
+2026-05-06 15:38:40-INFO: 通知邮箱： ，通知结果: 成功，耗时: 738ms
+2026-05-06 15:38:40-INFO: notify.sent，时间戳: 1778053120，count: 3，attempts: 1
+2026-05-06 15:38:40-INFO: 汇总通知结果: 成功，尝试次数: 1
+2026-05-06 15:38:40-INFO: run.complete，时间戳: 1778053120，ended_at: 1778053120，duration_seconds: 12.635，exit_code: 0
+2026-05-06 15:38:40-INFO: ----------------------完成任务，总耗时: 12634ms----------------------
+2026-05-06 15:44:09-INFO: ----------------------开始任务----------------------
+2026-05-06 15:44:09-INFO: run.start，时间戳: 1778053449，run_mode: once，check_interval_seconds: 60，accounts: 2，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778053449
+2026-05-06 15:44:09-INFO: step1：获取当前公网ip
+2026-05-06 15:44:09-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 524ms
+2026-05-06 15:44:09-INFO: ip.source.result，时间戳: 1778053449，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053449
+2026-05-06 15:44:10-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 798ms
+2026-05-06 15:44:10-INFO: ip.source.result，时间戳: 1778053450，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053450
+2026-05-06 15:44:12-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 1715ms
+2026-05-06 15:44:12-INFO: ip.source.result，时间戳: 1778053452，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053452
+2026-05-06 15:44:13-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(ConnectionResetError)，耗时: 864ms
+2026-05-06 15:44:13-WARN: ip.source.result，时间戳: 1778053453，source: https://api.ipify.org，success: False，error_type: ConnectionResetError，error: [WinError 10054] 远程主机强迫关闭了一个现有的连接。，fetched_at: 1778053453
+2026-05-06 15:44:13-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 571ms
+2026-05-06 15:44:13-INFO: ip.source.result，时间戳: 1778053453，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053453
+2026-05-06 15:44:14-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 921ms
+2026-05-06 15:44:14-INFO: ip.source.result，时间戳: 1778053454，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053454
+2026-05-06 15:44:15-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 478ms
+2026-05-06 15:44:15-INFO: ip.source.result，时间戳: 1778053455，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053455
+2026-05-06 15:44:16-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 1860ms
+2026-05-06 15:44:16-INFO: ip.source.result，时间戳: 1778053456，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053456
+2026-05-06 15:44:17-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 796ms
+2026-05-06 15:44:17-INFO: ip.source.result，时间戳: 1778053457，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053457
+2026-05-06 15:44:17-WARN: ip.source.partial_error，时间戳: 1778053457，source_errors: {'https://api.ipify.org': '[WinError 10054] 远程主机强迫关闭了一个现有的连接。'}
+2026-05-06 15:44:17-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 15:44:17-INFO: step3：更新安全组规则
+2026-05-06 15:44:17-INFO: step3.1：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver ssh
+2026-05-06 15:44:17-INFO: target.evaluate，时间戳: 1778053457，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，rule_name: 公司内网访问jumpserver ssh，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:44:17-INFO: ip.compare，时间戳: 1778053457，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:44:17-INFO: target.skip_update，时间戳: 1778053457，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，reason: ip_unchanged
+2026-05-06 15:44:17-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:44:17-INFO: step3.2：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司网络
+2026-05-06 15:44:17-INFO: target.evaluate，时间戳: 1778053457，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:44:17-INFO: ip.compare，时间戳: 1778053457，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:44:17-INFO: target.skip_update，时间戳: 1778053457，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，reason: ip_unchanged
+2026-05-06 15:44:17-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:44:17-INFO: step3.3：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver web
+2026-05-06 15:44:17-INFO: target.evaluate，时间戳: 1778053457，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，rule_name: 公司内网访问jumpserver web，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:44:17-INFO: ip.compare，时间戳: 1778053457，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:44:17-INFO: target.skip_update，时间戳: 1778053457，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，reason: ip_unchanged
+2026-05-06 15:44:17-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:44:17-INFO: step3.4：目标安全组：华为云 | security-modifier | cn-east-3 | -- | test
+2026-05-06 15:44:17-INFO: target.evaluate，时间戳: 1778053457，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:44:17-INFO: ip.compare，时间戳: 1778053457，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:44:17-INFO: target.skip_update，时间戳: 1778053457，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 15:44:17-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:44:17-INFO: step3.5：目标安全组：华为云 | security-modifier | cn-east-3 | -- | 公司网络
+2026-05-06 15:44:17-INFO: target.evaluate，时间戳: 1778053457，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:44:17-INFO: ip.compare，时间戳: 1778053457，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:44:17-INFO: target.skip_update，时间戳: 1778053457，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，reason: ip_unchanged
+2026-05-06 15:44:17-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:44:17-INFO: step3.6：目标安全组：华为云 | security-modifier | cn-east-3 | -- | --
+2026-05-06 15:44:17-INFO: target.evaluate，时间戳: 1778053457，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，rule_name: --，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:44:17-INFO: ip.compare，时间戳: 1778053457，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:44:17-INFO: target.skip_update，时间戳: 1778053457，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，reason: ip_unchanged
+2026-05-06 15:44:17-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:44:17-INFO: run.complete，时间戳: 1778053457，ended_at: 1778053457，duration_seconds: 8.558，exit_code: 0
+2026-05-06 15:44:17-INFO: ----------------------完成任务，总耗时: 8558ms----------------------
+2026-05-06 15:48:31-INFO: ----------------------开始任务----------------------
+2026-05-06 15:48:31-INFO: run.start，时间戳: 1778053711，run_mode: once，check_interval_seconds: 60，accounts: 2，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 1778053711
+2026-05-06 15:48:31-INFO: step1：获取当前公网ip
+2026-05-06 15:48:31-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 632ms
+2026-05-06 15:48:31-INFO: ip.source.result，时间戳: 1778053711，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053711
+2026-05-06 15:48:34-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 2591ms
+2026-05-06 15:48:34-INFO: ip.source.result，时间戳: 1778053714，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053714
+2026-05-06 15:48:35-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 600ms
+2026-05-06 15:48:35-INFO: ip.source.result，时间戳: 1778053715，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053715
+2026-05-06 15:48:37-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 2840ms
+2026-05-06 15:48:37-WARN: ip.source.result，时间戳: 1778053717，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 1778053717
+2026-05-06 15:48:38-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 621ms
+2026-05-06 15:48:38-INFO: ip.source.result，时间戳: 1778053718，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053718
+2026-05-06 15:48:39-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 884ms
+2026-05-06 15:48:39-INFO: ip.source.result，时间戳: 1778053719，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053719
+2026-05-06 15:48:40-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 632ms
+2026-05-06 15:48:40-INFO: ip.source.result，时间戳: 1778053720，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053720
+2026-05-06 15:48:42-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 2416ms
+2026-05-06 15:48:42-INFO: ip.source.result，时间戳: 1778053722，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053722
+2026-05-06 15:48:45-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 2514ms
+2026-05-06 15:48:45-INFO: ip.source.result，时间戳: 1778053725，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 1778053725
+2026-05-06 15:48:45-WARN: ip.source.partial_error，时间戳: 1778053725，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 15:48:45-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 15:48:45-INFO: step3：更新安全组规则
+2026-05-06 15:48:45-INFO: step3.1：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver ssh
+2026-05-06 15:48:45-INFO: target.evaluate，时间戳: 1778053725，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，rule_name: 公司内网访问jumpserver ssh，resolved_ip: 115.220.184.160，last_ip: None，changed: True，access_key_id: LTA***cuR
+2026-05-06 15:48:45-INFO: ip.compare，时间戳: 1778053725，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，current_ip: 115.220.184.160，previous_ip: None，changed: True
+2026-05-06 15:48:45-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: None，是否发生变化: True，开始更新安全组规则
+2026-05-06 15:48:45-INFO: aliyun.update.success，时间戳: 1778053725，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，attempts: 1，new_ip: 115.220.184.160，updated_at: 1778053725
+2026-05-06 15:48:45-INFO: 更新结果: 成功，耗时: 419ms
+2026-05-06 15:48:45-INFO: step3.2：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司网络
+2026-05-06 15:48:45-INFO: target.evaluate，时间戳: 1778053725，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:48:45-INFO: ip.compare，时间戳: 1778053725，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:48:45-INFO: target.skip_update，时间戳: 1778053725，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，reason: ip_unchanged
+2026-05-06 15:48:45-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:48:45-INFO: step3.3：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver web
+2026-05-06 15:48:45-INFO: target.evaluate，时间戳: 1778053725，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，rule_name: 公司内网访问jumpserver web，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:48:45-INFO: ip.compare，时间戳: 1778053725，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:48:45-INFO: target.skip_update，时间戳: 1778053725，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，reason: ip_unchanged
+2026-05-06 15:48:45-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:48:45-INFO: step3.4：目标安全组：华为云 | security-modifier | cn-east-3 | -- | test
+2026-05-06 15:48:45-INFO: target.evaluate，时间戳: 1778053725，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:48:45-INFO: ip.compare，时间戳: 1778053725，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:48:45-INFO: target.skip_update，时间戳: 1778053725，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 15:48:45-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:48:45-INFO: step3.5：目标安全组：华为云 | security-modifier | cn-east-3 | -- | 公司网络
+2026-05-06 15:48:45-INFO: target.evaluate，时间戳: 1778053725，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:48:45-INFO: ip.compare，时间戳: 1778053725，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:48:45-INFO: target.skip_update，时间戳: 1778053725，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，reason: ip_unchanged
+2026-05-06 15:48:45-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:48:45-INFO: step3.6：目标安全组：华为云 | security-modifier | cn-east-3 | -- | --
+2026-05-06 15:48:45-INFO: target.evaluate，时间戳: 1778053725，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，rule_name: --，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:48:45-INFO: ip.compare，时间戳: 1778053725，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:48:45-INFO: target.skip_update，时间戳: 1778053725，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，reason: ip_unchanged
+2026-05-06 15:48:45-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:48:45-INFO: step4：发送变更通知
+2026-05-06 15:48:45-INFO: 通知邮箱： ，通知结果: 成功，耗时: 445ms
+2026-05-06 15:48:45-INFO: notify.sent，时间戳: 1778053725，count: 6，attempts: 1
+2026-05-06 15:48:45-INFO: 汇总通知结果: 成功，尝试次数: 1
+2026-05-06 15:48:45-INFO: run.complete，时间戳: 1778053725，ended_at: 1778053725，duration_seconds: 14.628，exit_code: 0
+2026-05-06 15:48:45-INFO: ----------------------完成任务，总耗时: 14627ms----------------------
+2026-05-06 15:52:35-INFO: ----------------------开始任务----------------------
+2026-05-06 15:52:35-INFO: run.start，记录时间: 2026-05-06 15:52:35，run_mode: once，check_interval_seconds: 60，accounts: 2，ip_sources: ['https://api64.ipify.org', 'https://ifconfig.me/ip', 'https://checkip.amazonaws.com', 'https://api.ipify.org', 'https://api.ip.sb/ip', 'https://ipinfo.io/ip', 'https://icanhazip.com', 'https://api.my-ip.io/ip', 'https://ipecho.net/plain']，started_at: 2026-05-06 15:52:35
+2026-05-06 15:52:35-INFO: step1：获取当前公网ip
+2026-05-06 15:52:36-INFO: 获取公网ip地址，url: https://api64.ipify.org，结果: 115.220.184.160，耗时: 1287ms
+2026-05-06 15:52:36-INFO: ip.source.result，记录时间: 2026-05-06 15:52:36，source: https://api64.ipify.org，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:36
+2026-05-06 15:52:38-INFO: 获取公网ip地址，url: https://ifconfig.me/ip，结果: 115.220.184.160，耗时: 1886ms
+2026-05-06 15:52:38-INFO: ip.source.result，记录时间: 2026-05-06 15:52:38，source: https://ifconfig.me/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:38
+2026-05-06 15:52:38-INFO: 获取公网ip地址，url: https://checkip.amazonaws.com，结果: 115.220.184.160，耗时: 621ms
+2026-05-06 15:52:38-INFO: ip.source.result，记录时间: 2026-05-06 15:52:38，source: https://checkip.amazonaws.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:38
+2026-05-06 15:52:39-WARN: 获取公网ip地址，url: https://api.ipify.org，结果: 失败(URLError)，耗时: 745ms
+2026-05-06 15:52:39-WARN: ip.source.result，记录时间: 2026-05-06 15:52:39，source: https://api.ipify.org，success: False，error_type: URLError，error: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>，fetched_at: 2026-05-06 15:52:39
+2026-05-06 15:52:40-INFO: 获取公网ip地址，url: https://api.ip.sb/ip，结果: 115.220.184.160，耗时: 1036ms
+2026-05-06 15:52:40-INFO: ip.source.result，记录时间: 2026-05-06 15:52:40，source: https://api.ip.sb/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:40
+2026-05-06 15:52:41-INFO: 获取公网ip地址，url: https://ipinfo.io/ip，结果: 115.220.184.160，耗时: 826ms
+2026-05-06 15:52:41-INFO: ip.source.result，记录时间: 2026-05-06 15:52:41，source: https://ipinfo.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:41
+2026-05-06 15:52:42-INFO: 获取公网ip地址，url: https://icanhazip.com，结果: 115.220.184.160，耗时: 1141ms
+2026-05-06 15:52:42-INFO: ip.source.result，记录时间: 2026-05-06 15:52:42，source: https://icanhazip.com，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:42
+2026-05-06 15:52:50-INFO: 获取公网ip地址，url: https://api.my-ip.io/ip，结果: 115.220.184.160，耗时: 8046ms
+2026-05-06 15:52:50-INFO: ip.source.result，记录时间: 2026-05-06 15:52:50，source: https://api.my-ip.io/ip，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:50
+2026-05-06 15:52:51-INFO: 获取公网ip地址，url: https://ipecho.net/plain，结果: 115.220.184.160，耗时: 805ms
+2026-05-06 15:52:51-INFO: ip.source.result，记录时间: 2026-05-06 15:52:51，source: https://ipecho.net/plain，success: True，resolved_ip: 115.220.184.160，fetched_at: 2026-05-06 15:52:51
+2026-05-06 15:52:51-WARN: ip.source.partial_error，记录时间: 2026-05-06 15:52:51，source_errors: {'https://api.ipify.org': '<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>'}
+2026-05-06 15:52:51-INFO: step2：比较当前ip地址与之前记录的ip地址
+2026-05-06 15:52:51-INFO: step3：更新安全组规则
+2026-05-06 15:52:51-INFO: step3.1：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver ssh
+2026-05-06 15:52:51-INFO: target.evaluate，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，rule_name: 公司内网访问jumpserver ssh，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:52:51-INFO: ip.compare，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:52:51-INFO: target.skip_update，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6h，reason: ip_unchanged
+2026-05-06 15:52:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:52:51-INFO: step3.2：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司网络
+2026-05-06 15:52:51-INFO: target.evaluate，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:52:51-INFO: ip.compare，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:52:51-INFO: target.skip_update，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6f，reason: ip_unchanged
+2026-05-06 15:52:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:52:51-INFO: step3.3：目标安全组：阿里云 |  | cn-hangzhou | 魔电-测试new | 公司内网访问jumpserver web
+2026-05-06 15:52:51-INFO: target.evaluate，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，region: cn-hangzhou，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，rule_name: 公司内网访问jumpserver web，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: LTA***cuR
+2026-05-06 15:52:51-INFO: ip.compare，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:52:51-INFO: target.skip_update，记录时间: 2026-05-06 15:52:51，provider: aliyun，account: ，security_group_id: sg-bp18yj3ggqktn1ejdr99，rule_identifier: sgr-bp1b2nu3620lsa112i6d，reason: ip_unchanged
+2026-05-06 15:52:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:52:51-INFO: step3.4：目标安全组：华为云 | security-modifier | cn-east-3 | -- | test
+2026-05-06 15:52:51-INFO: target.evaluate，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，rule_name: test，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:52:51-INFO: ip.compare，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:52:51-INFO: target.skip_update，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: eb6f447b-ca03-4fe3-ad84-0881a246696e，reason: ip_unchanged
+2026-05-06 15:52:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:52:51-INFO: step3.5：目标安全组：华为云 | security-modifier | cn-east-3 | -- | 公司网络
+2026-05-06 15:52:51-INFO: target.evaluate，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，rule_name: 公司网络，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:52:51-INFO: ip.compare，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:52:51-INFO: target.skip_update，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 7a7d77d7-ef99-4b3d-90cd-223909d37bc9，reason: ip_unchanged
+2026-05-06 15:52:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:52:51-INFO: step3.6：目标安全组：华为云 | security-modifier | cn-east-3 | -- | --
+2026-05-06 15:52:51-INFO: target.evaluate，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，region: cn-east-3，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，rule_name: --，resolved_ip: 115.220.184.160，last_ip: 115.220.184.160，changed: False，access_key_id: HPU***SMK
+2026-05-06 15:52:51-INFO: ip.compare，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，current_ip: 115.220.184.160，previous_ip: 115.220.184.160，changed: False
+2026-05-06 15:52:51-INFO: target.skip_update，记录时间: 2026-05-06 15:52:51，provider: huawei，account: security-modifier，security_group_id: 45ee7acb-8471-40e5-8578-e7fae38f9142，rule_identifier: 49bb0633-c28d-4b43-9bc1-b076ba2b109a，reason: ip_unchanged
+2026-05-06 15:52:51-INFO: 当前ip地址: 115.220.184.160，之前记录的ip地址: 115.220.184.160，是否发生变化: False，跳过更新安全组规则
+2026-05-06 15:52:51-INFO: run.complete，记录时间: 2026-05-06 15:52:51，ended_at: 2026-05-06 15:52:51，duration_seconds: 16.417，exit_code: 0
+2026-05-06 15:52:51-INFO: ----------------------完成任务，总耗时: 16417ms----------------------

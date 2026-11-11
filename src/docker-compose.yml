@@ -1,0 +1,16 @@
+services:
+  ip-sync:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: timer-check-update-ip-sync-huawei:latest
+    env_file:
+      - .env
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - LOG_DIR=/app/logs

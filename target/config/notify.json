@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "smtp_host": "smtp.exmail.qq.com",
+  "smtp_port": 465,
+  "smtp_username": "",
+  "smtp_password": "",
+  "smtp_use_tls": true,
+  "email_from": "",
+  "email_to": [],
+  "retry_count": 3,
+  "rate_limit_seconds": 7200,
+  "pending_file": "./data/ip_sync_notify_pending.json"
+}

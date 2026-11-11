@@ -1,0 +1,14 @@
+services:
+  huawei-ip-sync:
+    image: timer-check-update-ip-sync-huawei:latest
+    container_name: huawei-ip-sync
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - TZ=Asia/Shanghai
+      - LOG_DIR=/app/logs
